@@ -5,9 +5,7 @@
 <p>1. Users can use their device's in-built GPS to retrieve the current weather information</p>
 <p>2. Apart from retrieving their current location, users can also search for another location, to help them with proper planning of their activities etc.</p>
 
-The app was also created in bid to practise dart's asynchornous programming, exception handling on try catch and also working with receving JSON data from severs such as Open Weather.
-
-this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
+The app was also created in bid to practise dart's asynchornous programming since retriving the device's (GPS) latitiude and longitude can take some time, exception handling on try catch and also working with receving JSON data from severs such as Open Weather.
 
 
 <h2>The App itself</h2>
@@ -21,7 +19,7 @@ The quick weather app is inspired by the beautiful designs made by [Olia Gozha](
 ```navigate to services/weather.dart```
 
 ```const apiKey = 'your_API_key'```
-<p>Insert your own API key</p>
+<p>Replace your_API_key with your own API key</p>
 <p>You can get your a valid (there is a <i>free</i> plan) API key on Open Weather's website</p>
 
 
