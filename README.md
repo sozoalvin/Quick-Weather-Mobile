@@ -1,34 +1,32 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Quick Weather App
 
 
-# Clima ☁
+<p>The quick weather app is writen in Flutter framework and in dart language. The objective of the project serves 2 purposes. </p>
+<p>1. Users can use their device's in-built GPS to retrieve the current weather information</p>
+<p>2. Apart from retrieving their current location, users can also search for another location, to help them with proper planning of their activities etc.</p>
 
-## Our Goal
+The app was also created in bid to practise dart's asynchornous programming, exception handling on try catch and also working with receving JSON data from severs such as Open Weather.
 
-The objective of this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
+this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
 
 
-## What you will create
-
-We’re going to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-). By the end of the module, you'll be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
+<h2>The App itself</h2>
+The quick weather app is inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-).
 
 ![Finished App](https://github.com/londonappbrewery/Images/blob/master/clima-demo.gif)
 
-## What you will learn
+<h2>Testing for Production</h2>
+<p>Before running the code in Android Studio, please ensure that you have your own API key set up</p>
 
-- How to use Dart to perform asynchronous tasks.
-- Understand async and await.
-- Learn about Futures and how to work with them.
-- How to network with the Dart http package.
-- What APIs are and how to use them to get data from the internet.
-- What JSONs are and how to parse them using the Dart convert package.
-- How to pass data forwards and backwards between screens using the Navigator.
-- How to handle exceptions in Dart using try/catch/throw.
-- Learn about the lifecycle of Stateful Widgets and how to override them.
-- How to use the Geolocator package to get live location data for both iOS and Android.
-- How to use the TextField Widget to take user input.
+```navigate to services/weather.dart```
+
+```const apiKey = 'your_API_key'```
+<p>Insert your own API key</p>
+<p>You can get your a valid (there is a <i>free</i> plan) API key on Open Weather's website</p>
 
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+<h2>Resources</h2>
+<p>The project itself is complete and you can build your own once you clone this repository.</p>
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+<h2>Special Mentions</h2>
+<p>Many thanks for the team at www.appbrewery.co for their wonderful courserwork and guidance in making a complicated app easy to understand in terms of the statesless, statefull, the build, the call back functions as well as the core dart language practice. </p>
